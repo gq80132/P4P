@@ -64,7 +64,7 @@ pipeline {
                     # Verify deployment
                     if docker ps | grep vetApp; then
                         echo "✅ Container deployed successfully"
-                        echo "🌐 App accessible at: http://18.223.180.209:9090/app"
+                        echo "🌐 App accessible at: http://3.145.140.99:9090/app"
 
                         # Test the endpoint
                         echo "Testing application endpoint..."
